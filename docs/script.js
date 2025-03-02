@@ -26,3 +26,7 @@ function acortarURL() {
         document.getElementById("resultado").innerHTML = "Error en la solicitud.";
     });
 }
+
+document.querySelector(".menu-toggle").addEventListener("click", () => {
+    document.querySelector(".nav-links").classList.toggle("nav-active");
+  });
